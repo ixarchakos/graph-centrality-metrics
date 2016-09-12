@@ -1,0 +1,11 @@
+# UNDirected graph: edg.txt
+# Save as tab-separated list of edges
+# FromNodeId	ToNodeId
+0	1
+2	0
+2	1
+2	3
+3	4
+5	4
+6	4
+6	5
