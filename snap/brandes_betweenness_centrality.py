@@ -4,7 +4,7 @@ import snap
 fw = open('results.txt', 'w')
 
 # load the edge list using snap library
-G1 = snap.LoadEdgeList(snap.PUNGraph, "edges.txt", 0, 1)
+G1 = snap.LoadEdgeList(snap.PUNGraph, "data/edges.txt", 0, 1)
 V = snap.TIntV()
 for NI in G1.Nodes():
     V.Add(NI.GetId())
